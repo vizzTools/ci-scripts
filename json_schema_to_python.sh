@@ -30,5 +30,5 @@ quicktype \
     --src-lang schema \
     --src-urls $SCHEMA_SRC_PATHS \
     -l py \
-    -o $CODE_DIR/Models.py
-echo "Code written to $CODE_DIR/Models.py"
+    -o $CODE_DIR_PATH/Models.py
+echo "Code written to $CODE_DIR_PATH/Models.py"
