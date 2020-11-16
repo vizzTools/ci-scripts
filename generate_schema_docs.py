@@ -1,3 +1,5 @@
+
+#!/bin/python3
 """Run this to generate HTML docs suitable for jekyll gh-pages
 
     Remember to set environment variables in .env or CI config, e.g.;
