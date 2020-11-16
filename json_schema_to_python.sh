@@ -19,7 +19,7 @@ set -ex
 
 # Update __init__.py
 # TODO: add automatic semantic version
-echo "from .Models import  *" >> $CODE_DIR/"__init__.py"
+echo "from .Models import  *" | sudo tee -a $CODE_DIR/"__init__.py"
 
 # Convert JSON schema to Python code
 quicktype \
