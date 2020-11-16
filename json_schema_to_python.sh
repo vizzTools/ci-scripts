@@ -21,7 +21,7 @@ set -ex
 # TODO: automatically update __init__.py
 #echo "from .Models import  *" | sudo tee -a $CODE_DIR/"__init__.py"
 
-touch $CODE_DIR/Models.py
+touch $CODE_DIR_PATH/Models.py
 
 # Convert JSON schema to Python code
 quicktype \
