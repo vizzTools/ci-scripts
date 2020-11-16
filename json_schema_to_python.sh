@@ -17,7 +17,6 @@ set -ex
 
 #CODE_DIR=./vizzToolsCore
 
-# Update __init__.py
 # TODO: add automatic semantic version
 # TODO: automatically update __init__.py
 #echo "from .Models import  *" | sudo tee -a $CODE_DIR/"__init__.py"
@@ -29,5 +28,5 @@ quicktype \
     --src-lang schema \
     --src-urls $SCHEMA_SRC_PATHS \
     -l py \
-    -o $CI_PROJECT_DIR/$CODE_DIR/Models.py
+    -o $CODE_DIR/Models.py
 echo "Code written to $CODE_DIR/Models.py"
