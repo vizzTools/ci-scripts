@@ -1,13 +1,13 @@
 
 #!/bin/python3
-"""Run this to generate HTML docs suitable for jekyll gh-pages
+"""Run this to generate HTML docs suitable for jekyll gh-pages"""
 
-    Remember to set environment variables in .env or CI config, e.g.;
-        DOCS_URL_PATH ="https://vizztools.github.io/vizzToolsCore"
-        SCHEMA_DIR_PATH="./json-schema"
-        JSONLD_DIR_PATH="./jsonld-examples"
-        DOCS_DIR_PATH="./docs"
-"""
+
+#Remember to set environment variables in .env or CI config, e.g.;
+#        DOCS_URL_PATH ="https://vizztools.github.io/vizzToolsCore"
+#        SCHEMA_DIR_PATH="./json-schema"
+#        JSONLD_DIR_PATH="./jsonld-examples"
+#        DOCS_DIR_PATH="./docs"
 
 import json
 import os
