@@ -1,6 +1,6 @@
 #!/bin/bash
 # Convert JSON schema to Python classes.
-
+set -ex
 
 # Set the JSON schema source path(s)
 # This should be of the form: 
